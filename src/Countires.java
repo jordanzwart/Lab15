@@ -27,6 +27,7 @@ public class Countires {
 			System.out.println("1. See lists of Countires");
 			System.out.println("2. Add a country");
 			System.out.println("3. Exit\n");
+	
 			int num = scan.nextInt();
 			switch (num) {
 			case 1:
@@ -43,10 +44,10 @@ public class Countires {
 				noYes = scan.nextInt();
 				break;
 			}
-			System.out.println("Goodbye");
+			
 			
 		} 
-		
+		System.out.println("Goodbye");
 
 	}
 	public static void createDirectory(String dirString) {
